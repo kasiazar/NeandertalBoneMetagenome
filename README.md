@@ -5,10 +5,10 @@ Storage for files and scripts for the Neandertal bone metagenome project.
 More description at: /sites.google.com/site/kzarembaniedzwiedzka/NeandertalBoneMicrobes
 
 ========================
-Html files: subsititions
+ContigHtml_v1.tgz
 ========================
 
-file: ContigHtml_v1.tgz
+file: packed html files for contigs
 unpack: tar -xzvf ContigHtml_v1.tgz
 
 Purpose:
