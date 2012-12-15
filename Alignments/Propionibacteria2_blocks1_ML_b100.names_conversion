@@ -1,0 +1,75 @@
+id: A1_D05; name: A1_D05
+id: A2_G05; name: A2_G05
+id: Pseu_C6_N; name: Pseu_C6_N N_C6_Pseudonocardineae_511bp_17reads
+id: AmcSpe18; name: Aeromicrobium sp. arb Nocardioidaceae
+id: Prop_C8_A; name: Prop_C8_A A_C8_Propionibacterineae_995bp_67reads
+id: A1_D03; name: A1_D03
+id: PpnSpe17; name: Propionibacterium sp. arb Propionibacteriaceae
+id: NocAquit; name: Nocardioides aquiterrae arb Nocardioides aquiterrae
+id: A2_A05; name: A2_A05
+id: NocMarin; name: Nocardioides marinisabuli arb Nocardioidaceae
+id: AcnANLis; name: actinobacterium ANL-iso2 arb Actinobacteria
+id: Prop_C9_A; name: Prop_C9_A A_C9_Propionibacterineae_681bp_108reads
+id: Bact_C25_N; name: Bact_C25_N N_C25_Bacteria_926bp_35reads
+id: A5_F03; name: A5_F03
+id: PpnFreu4; name: Propionibacterium freudenreichii arb Propionibacterium freudenreichii - cyclohexamicum
+id: Unc03o7v; name: Unc03o7v bacterium arb Nocardioidaceae
+id: NocDubiu; name: Nocardioides dubius arb Nocardioidaceae
+id: NocAlbu8; name: Nocardioides albus arb Nocardioides albus - luteus
+id: A2_G11; name: A2_G11
+id: PdnPetro; name: Pseudonocardia petroleophila arb Pseudonocardia petroleophila - hydrocarbonoxydans
+id: A5_H10; name: A5_H10
+id: A2_C05; name: A2_C05
+id: Pseu_C4_N; name: Pseu_C4_N N_C4_Pseudonocardineae_574bp_5reads
+id: A5_C07; name: A5_C07
+id: Unc04cnb; name: Unc04cnb bacterium arb Nocardioidaceae
+id: NocAestu; name: Nocardioides aestuarii arb Nocardioidaceae
+id: Pseu_C10_A; name: Pseu_C10_A A_C10_Pseudonocardineae_718bp_65reads
+id: Prop_C8_N; name: Prop_C8_N N_C8_Propionibacterineae_1843bp_211reads
+id: PdnYunn2; name: Pseudonocardia yunnanensis arb Pseudonocardia aurantiaca et rel.
+id: Bact_C39_A; name: Bact_C39_A A_C39_Bacteria_823bp_133reads
+id: A2_H07; name: A2_H07
+id: A2_E09; name: A2_E09
+id: BkwCercl; name: Brooklawnia cerclae arb Thessarococcus et rel.
+id: AmcAlkal; name: Aeromicrobium alkaliterrae arb Nocardioidaceae
+id: A5_E03; name: A5_E03
+id: PpnProp4; name: Propionibacterium propionicum arb Propionibacterium avidum - propionicus
+id: MmrAuran; name: Marmoricola aurantiacus arb Marmoricola
+id: NocLute2; name: Nocardioides luteus arb Nocardioidaceae
+id: LtsSangu; name: Luteococcus sanguinis arb Luteococcus
+id: Prop_C11_A; name: Prop_C11_A A_C11_Propionibacterineae_1707bp_718reads
+id: KriKore2; name: Kribbella koreensis arb Hongia - Kribella
+id: NocNitro; name: Nocardioides nitrophenolicus arb Nocardioides simplex
+id: A5_G11; name: A5_G11
+id: NocDilut; name: Nocardioides dilutes arb Nocardioidaceae
+id: Actm_C13_A; name: Actm_C13_A A_C13_Actinomycetales_503bp_111reads
+id: Prop_C6_N; name: Prop_C6_N N_C6_Propionibacterineae_737bp_47reads
+id: PpnAcid4; name: Propionibacterium acidipropionici arb Propionibacterium granulosum - et rel.
+id: Prop_C7_N; name: Prop_C7_N N_C7_Propionibacterineae_1921bp_65reads
+id: KrtCave2; name: Kartchner Caverns arb Nocardioidaceae
+id: H25Singa; name: Actinopolymorpha singaporensis arb Actinobacteria
+id: NocPanac; name: Nocardioides panacihumi arb Nocardioidaceae
+id: FrdCapsu; name: Friedmanniella capsulata arb Friedmanniella
+id: KriFlavi; name: Kribbella flavida arb Actinobacteria
+id: A5_A02; name: A5_A02
+id: Actm_C6_N; name: Actm_C6_N N_C6_Actinomycetales_515bp_7reads
+id: Pseu_C5_N; name: Pseu_C5_N N_C5_Pseudonocardineae_1067bp_12reads
+id: M27Glyco; name: Micropruina glycogenica arb Micropruina
+id: MrtGinse; name: Microlunatus ginsengisoli arb Microlunatus
+id: SkbNassa; name: Stackebrandtia nassauensis arb Actinobacteria
+id: PdnHydro; name: Pseudonocardia hydrocarbonoxydans arb Pseudonocardiaceae_3
+id: NocSp101; name: Nocardioides sp._2 arb Nocardioidaceae
+id: Unc01s7x; name: Unc01s7x bacterium arb Nocardioidaceae
+id: NocAlb12; name: Nocardioides albus_2 arb Nocardioides albus - luteus
+id: Prop_C10_A; name: Prop_C10_A A_C10_Propionibacterineae_1105bp_257reads
+id: NocInsul; name: Nocardioides insulae arb Nocardioidaceae
+id: u6_D04; name: u6_D04
+id: NocExalb; name: Nocardioides exalbidus arb Nocardioides sp.
+id: PpnAcn77; name: Propionibacterium acnes arb Propionibacterium acnes
+id: KriHippo; name: Kribbella hippodromi arb Hongia - Kribella
+id: NocSpe88; name: Nocardioides sp. arb Nocardioidaceae
+id: Pseu_C7_N; name: Pseu_C7_N N_C7_Pseudonocardineae_596bp_23reads
+id: NocJens2; name: Nocardioides jensenii arb Nocardioides jensenii
+id: Prop_C7_A; name: Prop_C7_A A_C7_Propionibacterineae_668bp_24reads
+id: A5_H04; name: A5_H04
+id: A1_B01; name: A1_B01
