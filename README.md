@@ -8,23 +8,25 @@ More description at: /sites.google.com/site/kzarembaniedzwiedzka/NeandertalBoneM
 eSILVA
 ========================
 
-rRNA eSilvaRef111NR.fasta[.tgz]
+===rRNA database 
 
- SSU  eSSU_SilvaRef111NR.fasta[.tgz]
+eSilvaRef111NR.fasta[.tgz] - rRNA
 
- LSU  eLSU_SilvaRef111.fasta[.tgz]
+eSSU_SilvaRef111NR.fasta[.tgz] - SSU
+
+eLSU_SilvaRef111.fasta[.tgz] - LSU
 
 eSilvaRef111NR.n*, eSilvaRef111NR.n.tgz - prepared with formatdb (Version 2.2.18 [Mar-02-2008]) for blast
 
-Script to make eSILVA
+===Script to make eSILVA
 
-Make_eSILVA.sh			wrapper
+Make_eSILVA.sh - wrapper with step by step description
 
-Silva_Cut_QualityFilter.pl	remove poor quality
+Silva_Cut_QualityFilter.pl - remove poor quality
 
-Silva_Ref111_Filter.pl		remove poor taxonomy
+Silva_Ref111_Filter.pl - remove poor taxonomy
 
-arb filter: fasta_ref111.eft
+fasta_ref111.eft - arb filter
 
 ContigsHtml
 ========================
