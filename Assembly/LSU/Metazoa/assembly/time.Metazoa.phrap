@@ -1,0 +1,389 @@
+
+/opt/bio/phredphrap//bin/cross_match Metazoa.fasta /opt/bio/phredphrap//lib/screenLibs/vector.seq -minmatch 12 -penalty -2 -minscore 20 -screen 
+cross_match version 1.080812
+Reading parameters ... 1.008 Mbytes allocated -- total 1.008 Mbytes
+Run date:time  111027:163535
+ Done
+Total space allocated: 1.008 Mbytes; currently free: 0.973 Mbytes in 2 blocks
+Reading query file into memory ...1.008 Mbytes allocated -- total 2.016 Mbytes
+ Done
+Total space allocated: 2.016 Mbytes; currently free: 0.650 Mbytes in 3 blocks
+Complementing ... Done
+Total space allocated: 2.016 Mbytes; currently free: 0.650 Mbytes in 3 blocks
+Allocating align_entries ... Done
+Total space allocated: 2.016 Mbytes; currently free: 0.085 Mbytes in 3 blocks
+Reading quality files ... Done
+Total space allocated: 2.016 Mbytes; currently free: 0.085 Mbytes in 3 blocks
+Indexing words ...67.536 Mbytes allocated -- total 69.552 Mbytes
+2.016 Mbytes allocated -- total 71.568 Mbytes
+ Done
+Total space allocated: 71.568 Mbytes; currently free: 1.241 Mbytes in 5 blocks
+Sorting words ... Done
+Total space allocated: 71.568 Mbytes; currently free: 1.241 Mbytes in 5 blocks
+Finding word boundaries ... Done
+Total space allocated: 71.568 Mbytes; currently free: 0.926 Mbytes in 5 blocks
+Finding subject matches ...seq_buffer expanded
+ Done
+Total space allocated: 71.568 Mbytes; currently free: 0.927 Mbytes in 5 blocks
+Freeing word arrays ... Done
+Total space allocated: 71.568 Mbytes; currently free: 69.625 Mbytes in 7 blocks
+Quickalign: 0 successes, 0 failures
+0 SWAT alignments performed. 0 pairs have score >= 20
+Making reversed pairs ... Done
+Total space allocated: 71.568 Mbytes; currently free: 69.625 Mbytes in 7 blocks
+Printing matches ... Sorting pairs ... DoneSorting pairs ... Done Done
+Total space allocated: 71.568 Mbytes; currently free: 69.625 Mbytes in 7 blocks
+Checking pairs ... Done
+Total space allocated: 71.568 Mbytes; currently free: 69.625 Mbytes in 7 blocks
+Total space allocated: 71.568 Mbytes; currently free: 69.625 Mbytes in 7 blocks
+Total # pairs: 0, size: 0.000 Mbytes; edges12: 0; # score_hists: 0, size: 0.000 Mbytes; # query_domains: 0, size: 0.000 Mbytes; # query_datas: 0, size: 0.000 Mbytes
+Total # segment blocks: 0, size: 0.000 Mbytes
+Total # diffs: 0, in 0 lists, size: 0.000 Mbytes
+
+
+/opt/bio/phredphrap//bin/phrap Metazoa.fasta.screen -new_ace -view -minmatch 30 -maxmatch 55 -minscore 55 -max_subclone_size 50000 -revise_greedy -vector_bound 20 
+phrap version 1.080812
+Reading parameters ... 1.008 Mbytes allocated -- total 1.008 Mbytes
+Run date:time  111027:163535
+ Done
+Total space allocated: 1.008 Mbytes; currently free: 0.973 Mbytes in 2 blocks
+Reading query file into memory ...1.008 Mbytes allocated -- total 2.016 Mbytes
+ Done
+Total space allocated: 2.016 Mbytes; currently free: 0.650 Mbytes in 3 blocks
+Complementing ... Done
+Total space allocated: 2.016 Mbytes; currently free: 0.650 Mbytes in 3 blocks
+Allocating align_entries ...1.008 Mbytes allocated -- total 3.024 Mbytes
+ Done
+Total space allocated: 3.024 Mbytes; currently free: 0.906 Mbytes in 4 blocks
+
+WARNING -- PROBABLE NOMENCLATURE VIOLATION; > 100 READS PER SUBCLONE
+Reading quality files ... Done
+Total space allocated: 3.024 Mbytes; currently free: 0.906 Mbytes in 4 blocks
+Testing ends ... Done
+Total space allocated: 3.024 Mbytes; currently free: 0.904 Mbytes in 4 blocks
+34.272 Mbytes allocated -- total 37.296 Mbytes
+Indexing words ...67.536 Mbytes allocated -- total 104.832 Mbytes
+ Done
+Total space allocated: 104.832 Mbytes; currently free: 1.587 Mbytes in 6 blocks
+Sorting words ... Done
+Total space allocated: 104.832 Mbytes; currently free: 1.587 Mbytes in 6 blocks
+Finding word boundaries ... Done
+Total space allocated: 104.832 Mbytes; currently free: 1.476 Mbytes in 6 blocks
+Finding complement word matches ... Done
+Total space allocated: 104.832 Mbytes; currently free: 0.356 Mbytes in 6 blocks
+Finding internal word matches ...1.008 Mbytes allocated -- total 105.840 Mbytes
+ Done
+Total space allocated: 105.840 Mbytes; currently free: 0.243 Mbytes in 7 blocks
+Freeing word arrays ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.470 Mbytes in 11 blocks
+Finding duplicates ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.470 Mbytes in 11 blocks
+SWATTING ... Allocating alignment string: 10 0 ........................................................ Done
+Total space allocated: 105.840 Mbytes; currently free: 99.919 Mbytes in 13 blocks
+Quickalign: 15236 successes, 32 failures
+56510 SWAT alignments performed. 13627 pairs have score >= 55
+Finding vector matches ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 102.159 Mbytes in 11 blocks
+Making reversed pairs ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding starts/ends ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Total # pairs: 30000, size: 2.160 Mbytes; edges12: 0; # score_hists: 0, size: 0.000 Mbytes; # query_domains: 0, size: 0.000 Mbytes; # query_datas: 0, size: 0.000 Mbytes
+Finding segments ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding more vector ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding mean offsets ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding near duplicates ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding self matches ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding node rejects ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding truncated pairs ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding multi-segment reads ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding starts/ends ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding deletions ... Sorting pairs ... Done Done
+Total space allocated: 105.840 Mbytes; currently free: 101.339 Mbytes in 11 blocks
+Finding extents ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Printing qualities ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Computing LLR scores ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Finding extents ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Computing LLR scores ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Printing qualities ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Printing coverage ... Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Finding blocked reads ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 101.192 Mbytes in 11 blocks
+Merging ...Sorting pairs ... Done
+
+Pass: 1
+#reads  #contigs (not counting singlets)
+    1    297
+    2     22
+    3     10
+    4      9
+    5      5
+    6      4
+    7      3
+    8      1
+    9      2
+   10      2
+   11      1
+   12      1
+   13      1
+   14      1
+   17      2
+   18      1
+   19      1
+   21      1
+   22      2
+   24      1
+   25      2
+   26      1
+   35      1
+   78      1
+   82      1
+  148      1
+
+Pass: 3
+#reads  #contigs (not counting singlets)
+    1    111
+    2      6
+    3      6
+    4      2
+    5      1
+    6      4
+    7      1
+    8      2
+    9      2
+   11      1
+   12      1
+   16      1
+   18      1
+   19      1
+   20      1
+   21      1
+   31      1
+   33      1
+   36      1
+   41      1
+   44      1
+   66      1
+   67      1
+   72      1
+  110      1
+  151      1
+  165      1
+
+Pass: 4
+#reads  #contigs (not counting singlets)
+    1     10
+    2      9
+    3      6
+    4      2
+    5      2
+    6      3
+    7      2
+    8      2
+   10      1
+   12      2
+   13      1
+   17      1
+   19      1
+   20      1
+   21      1
+   23      1
+   34      1
+   35      1
+   37      1
+   49      1
+   54      1
+   73      1
+   78      1
+   80      1
+  118      1
+  153      1
+  182      1
+
+Read equivalence class histogram:
+    1  1407
+    2   13
+    3    7
+    4    4
+    5    1
+    6    5
+    8    4
+   10    2
+   11    1
+   16    1
+   19    2
+   20    1
+   21    2
+   27    1
+   31    1
+   34    1
+   37    1
+   41    1
+   42    1
+   64    1
+   69    1
+   73    1
+  111    1
+  115    1
+  153    1
+
+
+Pass: 4
+#reads  #contigs (not counting singlets)
+    1     61
+    2     18
+    3      8
+    4      5
+    5      1
+    6      5
+    8      4
+   10      2
+   11      1
+   16      1
+   19      2
+   20      1
+   21      2
+   27      1
+   31      1
+   34      1
+   37      1
+   41      1
+   42      1
+   64      1
+   69      1
+   73      1
+  111      1
+  115      1
+  153      1
+Component 1, 1 members:  0    0    0 edges, score 0,  best_jump 0, 
+Component 2, 1 members:  0 C  0 C  0 edges, score 0,  best_jump 0, 
+
+Pass: 4
+#reads  #contigs (not counting singlets)
+    1     61
+    2     18
+    3      8
+    4      5
+    5      1
+    6      5
+    8      4
+   10      2
+   11      1
+   16      1
+   19      2
+   20      1
+   21      2
+   27      1
+   31      1
+   34      1
+   37      1
+   41      1
+   42      1
+   64      1
+   69      1
+   73      1
+  111      1
+  115      1
+  153      1
+
+Pass: 5
+#reads  #contigs (not counting singlets)
+    1     10
+    2      8
+    3      6
+    4      2
+    5      2
+    6      2
+    7      2
+    8      3
+   10      1
+   12      2
+   13      1
+   17      1
+   19      1
+   20      1
+   21      1
+   23      1
+   34      1
+   35      1
+   37      1
+   49      1
+   54      1
+   73      1
+   78      1
+   80      1
+  118      1
+  153      1
+  182      1 Done
+Total space allocated: 105.840 Mbytes; currently free: 100.683 Mbytes in 14 blocks
+Merging chimeras ... Done
+Total space allocated: 105.840 Mbytes; currently free: 100.683 Mbytes in 14 blocks
+Merging other singletons ...
+LLR_join_cutoff: -60
+ Done
+Total space allocated: 105.840 Mbytes; currently free: 100.683 Mbytes in 14 blocks
+Finding extents ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 100.781 Mbytes in 14 blocks
+Making contig sequences ...
+stack depth: 1000
+stack depth: 2000
+stack depth: 3000
+stack depth: 4000
+stack depth: 5000 Done
+Total space allocated: 105.840 Mbytes; currently free: 100.494 Mbytes in 64 blocks
+Aligning reads to contigs ... Done
+Total space allocated: 105.840 Mbytes; currently free: 100.385 Mbytes in 65 blocks
+Revising contigs ... Done
+Total space allocated: 105.840 Mbytes; currently free: 100.271 Mbytes in 63 blocks
+ 1674 old base segments, 0.054 Mb
+ 4041 new base segments, 0.129 Mb
+ total old contig length 11040, 0.033 Mb
+ total new contig length 11006, 0.033 Mb
+Aligning reads to contigs ... Done
+Total space allocated: 105.840 Mbytes; currently free: 100.242 Mbytes in 64 blocks
+Finding unaligned pairs ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 100.242 Mbytes in 64 blocks
+Total # segment blocks: 1, size: 0.080 Mbytes
+Printing contigs ...  Done
+Total space allocated: 105.840 Mbytes; currently free: 100.228 Mbytes in 119 blocks
+Total # segment blocks: 1, size: 0.080 Mbytes
+Writing contigs ... Done
+Total space allocated: 105.840 Mbytes; currently free: 100.228 Mbytes in 121 blocks
+Mapping reads by name ...167.328 Mbytes allocated -- total 273.168 Mbytes
+ Done
+Total space allocated: 273.168 Mbytes; currently free: 267.556 Mbytes in 122 blocks
+Checking pairs ... Done
+Total space allocated: 273.168 Mbytes; currently free: 267.556 Mbytes in 122 blocks
+Total space allocated: 273.168 Mbytes; currently free: 267.556 Mbytes in 122 blocks
+Total # pairs: 30000, size: 2.160 Mbytes; edges12: 0; # score_hists: 0, size: 0.000 Mbytes; # query_domains: 0, size: 0.000 Mbytes; # query_datas: 0, size: 0.000 Mbytes
+Total # segment blocks: 1, size: 0.080 Mbytes
+Total # diffs: 59485, in 15931 lists, size: 0.059 Mbytes
+Total # tags: 27, size: 0.001 Mbytes
+
+
+/opt/bio/phredphrap//bin/cross_match Metazoa.contigs /opt/bio/phredphrap//lib/screenLibs/repeats.fasta -tags -minmatch 10 
+cross_match version 1.080812
+Reading parameters ... 1.008 Mbytes allocated -- total 1.008 Mbytes
+Run date:time  111027:163544
+
+ ERROR: FILE /opt/bio/phredphrap//lib/screenLibs/repeats.fasta NOT FOUND 
+
+real	0m9.577s
+user	0m8.254s
+sys	0m1.291s

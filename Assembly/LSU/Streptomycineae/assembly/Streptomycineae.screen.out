@@ -1,0 +1,140 @@
+/opt/bio/phredphrap//bin/cross_match Streptomycineae.fasta /opt/bio/phredphrap//lib/screenLibs/vector.seq -minmatch 12 -penalty -2 -minscore 20 -screen 
+cross_match version 1.080812
+
+Run date:time  111027:163735
+Query file(s):  Streptomycineae.fasta
+Subject file(s):   /opt/bio/phredphrap//lib/screenLibs/vector.seq
+Presumed sequence type (from score matrix): DNA
+
+Pairwise comparison algorithm: banded Smith-Waterman
+
+Score matrix (set by value of penalty: -2)
+    A   C   G   T   N   X
+A   1  -2  -2  -2   0  -3
+C  -2   1  -2  -2   0  -3
+G  -2  -2   1  -2   0  -3
+T  -2  -2  -2   1   0  -3
+N   0   0   0   0   0   0
+X  -3  -3  -3  -3   0  -3
+
+Gap penalties: gap_init: -4, gap_ext: -3, ins_gap_ext: -3, del_gap_ext: -3, 
+Using complexity-adjusted scores. Assumed background frequencies:
+ Aa: 0.250  Cc: 0.250  Gg: 0.250  Tt: 0.250  Nn: 0.000  : 0.000  
+
+minmatch: 12, maxmatch: 20, max_group_size: 0 (turned off), minscore: 20, near_minscore: 20, bandwidth: 14, indexwordsize: 12, indexwordsize2: 4
+word_raw: 0
+vector_bound: 0
+gap1_minscore: 17, gap1_dropoff: -12
+masklevel: 80
+Minmargin: 0.5
+splice_edge_length: 0, allocation: 1 bytes
+min_intron_length: 30, max_intron_length: 10000, max_overlap: 20, min_exon_length: 6 
+Variable sizes: int: 4, long int: 8, SEQ_AREA: 4, signed: 1
+
+
+Sequence file: Streptomycineae.fasta    6793 entries
+Residue counts,  score matrix column # (* = last column):
+  A      192581    1
+  C      266494    2
+  G      270466    3
+  N         271    5
+  T      192720    4
+Total  922532 residues
+
+4 distinct alphabetic chars have freq > 1% -- 
+
+Allocated space: 1858651 seqs, 101896 ids, 964607 descrips
+
+Quality file: Streptomycineae.fasta.qual
+
+Input quality (quality, n_residues, %,  cum, cum %,  cum expected errs):
+ 60       2   0.0       2   0.0    0.00
+ 59      11   0.0      13   0.0    0.00
+ 58      12   0.0      25   0.0    0.00
+ 57      19   0.0      44   0.0    0.00
+ 56      28   0.0      72   0.0    0.00
+ 55      49   0.0     121   0.0    0.00
+ 54      56   0.0     177   0.0    0.00
+ 53      45   0.0     222   0.0    0.00
+ 52      56   0.0     278   0.0    0.00
+ 51     106   0.0     384   0.0    0.00
+ 50     378   0.0     762   0.1    0.01
+ 49     817   0.1    1579   0.2    0.02
+ 48     772   0.1    2351   0.3    0.03
+ 47     516   0.1    2867   0.3    0.04
+ 46     447   0.0    3314   0.4    0.05
+ 45    2027   0.2    5341   0.6    0.11
+ 44    2966   0.3    8307   0.9    0.23
+ 43    1476   0.2    9783   1.1    0.31
+ 42    2426   0.3   12209   1.3    0.46
+ 41    2151   0.2   14360   1.6    0.63
+ 40    1760   0.2   16120   1.7    0.81
+ 39   13391   1.5   29511   3.2    2.49
+ 38    6232   0.7   35743   3.9    3.48
+ 37    7864   0.9   43607   4.7    5.05
+ 36    5181   0.6   48788   5.3    6.35
+ 35    6654   0.7   55442   6.0    8.45
+ 34   10927   1.2   66369   7.2   12.80
+ 33    7804   0.8   74173   8.0   16.72
+ 32   15554   1.7   89727   9.7   26.53
+ 31   52680   5.7  142407  15.4   68.37
+ 30   49254   5.3  191661  20.8  117.63
+ 29   84853   9.2  276514  30.0  224.45
+ 28   71076   7.7  347590  37.7  337.10
+ 27  245397  26.6  592987  64.3  826.73
+ 26  125638  13.6  718625  77.9  1142.32
+ 25   47653   5.2  766278  83.1  1293.01
+ 24   32272   3.5  798550  86.6  1421.49
+ 23   16889   1.8  815439  88.4  1506.13
+ 22   15174   1.6  830613  90.0  1601.88
+ 21    9081   1.0  839694  91.0  1674.01
+ 20    6962   0.8  846656  91.8  1743.63
+ 19    5440   0.6  852096  92.4  1812.11
+ 18    3422   0.4  855518  92.7  1866.35
+ 17    4720   0.5  860238  93.2  1960.53
+ 16   10717   1.2  870955  94.4  2229.72
+ 15   10320   1.1  881275  95.5  2556.07
+ 14    8010   0.9  889285  96.4  2874.96
+ 13    5374   0.6  894659  97.0  3144.29
+ 12    4508   0.5  899167  97.5  3428.73
+ 11    3689   0.4  902856  97.9  3721.76
+ 10    3494   0.4  906350  98.2  4071.16
+  9    2928   0.3  909278  98.6  4439.77
+  8    2614   0.3  911892  98.8  4854.06
+  7    2138   0.2  914030  99.1  5280.65
+  6    1813   0.2  915843  99.3  5736.05
+  5    1628   0.2  917471  99.5  6250.87
+  4    1528   0.2  918999  99.6  6859.18
+  3    1343   0.1  920342  99.8  7532.27
+  2    1126   0.1  921468  99.9  8242.73
+  1     793   0.1  922261 100.0  8872.63
+  0     267   0.0  922528 100.0  9139.63
+ -1       4   0.0  922532 100.0  9143.63   (quality -1 = terminal quality 0)
+
+Avg. full length: 135.8, trimmed (qual > -1): 135.8
+Avg. quality: 26.8 per base
+Base_llr -5.55, intron_coeff: -0.00288828
+Num. pairs: 0
+Maximal single base matches (low complexity regions):
+
+0 matching entries (first file).
+
+Discrepancy summary:
+Qual algn  cum    rcum    (%)    unalgn X    N  sub del ins  total (%)   cum  rcum (%)
+
+
+Score histogram: displayed unspliced matches/cum/frac, other unspliced, displayed spliced, other spliced:
+
+Start histogram: displayed unspliced matches/cum/frac, other unspliced, displayed spliced, other spliced:
+
+
+Splice histogram : displayed 5' splice, other 5' splice: displayed 3' splice, other 3' splice:
+Screened sequences written to  Streptomycineae.fasta.screen
+
+
+
+Times in secs (cum)
+read queries   1 (  1)
+sort queries   1 (  2)
+find matches   0 (  2)
+         end   0 (  2)

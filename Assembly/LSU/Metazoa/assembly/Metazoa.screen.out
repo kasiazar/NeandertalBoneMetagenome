@@ -1,0 +1,139 @@
+/opt/bio/phredphrap//bin/cross_match Metazoa.fasta /opt/bio/phredphrap//lib/screenLibs/vector.seq -minmatch 12 -penalty -2 -minscore 20 -screen 
+cross_match version 1.080812
+
+Run date:time  111027:163535
+Query file(s):  Metazoa.fasta
+Subject file(s):   /opt/bio/phredphrap//lib/screenLibs/vector.seq
+Presumed sequence type (from score matrix): DNA
+
+Pairwise comparison algorithm: banded Smith-Waterman
+
+Score matrix (set by value of penalty: -2)
+    A   C   G   T   N   X
+A   1  -2  -2  -2   0  -3
+C  -2   1  -2  -2   0  -3
+G  -2  -2   1  -2   0  -3
+T  -2  -2  -2   1   0  -3
+N   0   0   0   0   0   0
+X  -3  -3  -3  -3   0  -3
+
+Gap penalties: gap_init: -4, gap_ext: -3, ins_gap_ext: -3, del_gap_ext: -3, 
+Using complexity-adjusted scores. Assumed background frequencies:
+ Aa: 0.250  Cc: 0.250  Gg: 0.250  Tt: 0.250  Nn: 0.000  : 0.000  
+
+minmatch: 12, maxmatch: 20, max_group_size: 0 (turned off), minscore: 20, near_minscore: 20, bandwidth: 14, indexwordsize: 12, indexwordsize2: 4
+word_raw: 0
+vector_bound: 0
+gap1_minscore: 17, gap1_dropoff: -12
+masklevel: 80
+Minmargin: 0.5
+splice_edge_length: 0, allocation: 1 bytes
+min_intron_length: 30, max_intron_length: 10000, max_overlap: 20, min_exon_length: 6 
+Variable sizes: int: 4, long int: 8, SEQ_AREA: 4, signed: 1
+
+
+Sequence file: Metazoa.fasta    2481 entries
+Residue counts,  score matrix column # (* = last column):
+  A       37251    1
+  C       55283    2
+  G       58464    3
+  N          22    5
+  T       36713    4
+Total  187733 residues
+
+4 distinct alphabetic chars have freq > 1% -- 
+
+Allocated space: 380429 seqs, 37216 ids, 352303 descrips
+
+Quality file: Metazoa.fasta.qual
+
+Input quality (quality, n_residues, %,  cum, cum %,  cum expected errs):
+ 60       1   0.0       1   0.0    0.00
+ 59       2   0.0       3   0.0    0.00
+ 57       1   0.0       4   0.0    0.00
+ 56       5   0.0       9   0.0    0.00
+ 55       5   0.0      14   0.0    0.00
+ 54      17   0.0      31   0.0    0.00
+ 53      26   0.0      57   0.0    0.00
+ 52      32   0.0      89   0.0    0.00
+ 51      31   0.0     120   0.1    0.00
+ 50      75   0.0     195   0.1    0.00
+ 49     231   0.1     426   0.2    0.00
+ 48     284   0.2     710   0.4    0.01
+ 47     228   0.1     938   0.5    0.01
+ 46     212   0.1    1150   0.6    0.02
+ 45     590   0.3    1740   0.9    0.04
+ 44    1042   0.6    2782   1.5    0.08
+ 43     630   0.3    3412   1.8    0.11
+ 42     819   0.4    4231   2.3    0.16
+ 41     676   0.4    4907   2.6    0.22
+ 40     573   0.3    5480   2.9    0.27
+ 39    3934   2.1    9414   5.0    0.77
+ 38    2070   1.1   11484   6.1    1.10
+ 37    2168   1.2   13652   7.3    1.53
+ 36    1523   0.8   15175   8.1    1.91
+ 35    1903   1.0   17078   9.1    2.51
+ 34    2678   1.4   19756  10.5    3.58
+ 33    1744   0.9   21500  11.5    4.45
+ 32    2524   1.3   24024  12.8    6.05
+ 31    9167   4.9   33191  17.7   13.33
+ 30   10024   5.3   43215  23.0   23.35
+ 29   23869  12.7   67084  35.7   53.40
+ 28   18496   9.9   85580  45.6   82.72
+ 27   45068  24.0  130648  69.6  172.64
+ 26   22009  11.7  152657  81.3  227.92
+ 25    7723   4.1  160380  85.4  252.34
+ 24    4970   2.6  165350  88.1  272.13
+ 23    2573   1.4  167923  89.4  285.03
+ 22    2352   1.3  170275  90.7  299.87
+ 21    1400   0.7  171675  91.4  310.99
+ 20    1196   0.6  172871  92.1  322.95
+ 19     857   0.5  173728  92.5  333.74
+ 18     522   0.3  174250  92.8  342.01
+ 17     684   0.4  174934  93.2  355.66
+ 16    1743   0.9  176677  94.1  399.44
+ 15    2014   1.1  178691  95.2  463.13
+ 14    1780   0.9  180471  96.1  533.99
+ 13    1321   0.7  181792  96.8  600.20
+ 12    1093   0.6  182885  97.4  669.16
+ 11     795   0.4  183680  97.8  732.31
+ 10     785   0.4  184465  98.3  810.81
+  9     651   0.3  185116  98.6  892.77
+  8     590   0.3  185706  98.9  986.27
+  7     482   0.3  186188  99.2  1082.45
+  6     402   0.2  186590  99.4  1183.42
+  5     321   0.2  186911  99.6  1284.93
+  4     252   0.1  187163  99.7  1385.26
+  3     246   0.1  187409  99.8  1508.55
+  2     179   0.1  187588  99.9  1621.49
+  1     123   0.1  187711 100.0  1719.19
+  0      21   0.0  187732 100.0  1740.19
+ -1       1   0.0  187733 100.0  1741.19   (quality -1 = terminal quality 0)
+
+Avg. full length: 75.7, trimmed (qual > -1): 75.7
+Avg. quality: 27.4 per base
+Base_llr -5.55, intron_coeff: -0.00288828
+Num. pairs: 0
+Maximal single base matches (low complexity regions):
+
+0 matching entries (first file).
+
+Discrepancy summary:
+Qual algn  cum    rcum    (%)    unalgn X    N  sub del ins  total (%)   cum  rcum (%)
+
+
+Score histogram: displayed unspliced matches/cum/frac, other unspliced, displayed spliced, other spliced:
+
+Start histogram: displayed unspliced matches/cum/frac, other unspliced, displayed spliced, other spliced:
+
+
+Splice histogram : displayed 5' splice, other 5' splice: displayed 3' splice, other 3' splice:
+Screened sequences written to  Metazoa.fasta.screen
+
+
+
+Times in secs (cum)
+read queries   0 (  0)
+sort queries   0 (  0)
+find matches   0 (  0)
+         end   0 (  0)

@@ -30,6 +30,47 @@ fasta_ref111.eft - arb filter
 
 Description: Custom high quality rRNA database, made removing poor quality or chimeric sequences, cutting unaligned ends, and removing taxonomically problematic sequences. To be used with the corresponding parser (to be added soon).
 
+
+Assembly
+========================
+
+===SSU
+
+======Metazoa
+
+=========assembly
+
+=========phd_dir
+
+=========chromat_dir
+
+======Streptomyces
+
+...
+
+===LSU
+
+...
+
+consed_[S|L]SU_[Metazoa|Streptomyces].tgz - files for viewing in consed; intermediate substiution calculation files.
+
+[S|L]SU/[Metazoa|Streptomyces]/assembly
+
+[Metazoa|Streptomyces].fasta.screen.ace.1 - ace file to be opened in consed
+
+intermediate files for subsitution calculations:
+
+[Metazoa|Streptomyces].C\d+.ace.1 - separated ace for one contig
+
+[Metazoa|Streptomyces].C\d+.ace.1.consensus - corrected consensus sequence
+
+[Metazoa|Streptomyces].C\d+.ace.1.details - all differences for all reads
+
+[Metazoa|Streptomyces].C\d+.ace.1.reads - reads sequences with matching read position to consensus position
+
+Description:
+Assembly results available for viewing in consed (go to assembly folder). Substitution calculations were done in several steps. First consensus sequence was verified by checking the dominant base at each position. Then all differences between the reads and consensus were calculated. Subsequent summary script implemented a cleaning procedure to overcome problem with adaptor leftovers at the ends: ignore end until 5bp are identical with consensus. To ignore reads that could be assembly errors all reads with more than 5 changes in total were discarded as well (not many). To inspect the difference between all difference and the calculated onces see the html pages below.
+
 ContigsHtml
 ========================
 
@@ -43,6 +84,7 @@ susbtitutions: [LS]SU*end5.rm5.html
 
 Description:
 These files were generated to inspect the assembly results. The script generating the html page marked in black all positions that disagree with the consensus (end0). To inspect the subsitution calculations, the script marks the positions in black, but applying certain cleaning procedure. That is ignore the ends until 5 consecutive bp agree with the consensus (potential adaptor leftovers) and ignore reads that have overall more that 5 subsitutions (occasional polymorphic or misassembled read). 
+
 
 Alignments
 ========================

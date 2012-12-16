@@ -1,0 +1,4 @@
+/opt/bio/phredphrap//bin/cross_match Streptomycineae.contigs /opt/bio/phredphrap//lib/screenLibs/repeats.fasta -tags -minmatch 10 
+cross_match version 1.080812
+
+Run date:time  111027:163338
