@@ -5,6 +5,24 @@ Storage for files and scripts for the Neandertal bone metagenome project.
 
 More description at: /sites.google.com/site/kzarembaniedzwiedzka/NeandertalBoneMicrobes
 
+eSILVA
+========================
+
+DATABASE rRNA eSilvaRef111NR.fasta[.tgz]
+DATABASE SSU  eSSU_SilvaRef111NR.fasta[.tgz]
+DATABASE LSU  eLSU_SilvaRef111.fasta[.tgz]
+eSilvaRef111NR.n*, eSilvaRef111NR.n.tgz - prepared with formatdb (Version 2.2.18 [Mar-02-2008]) for blast
+
+SCRIPTS TO MAKE IT
+wrapper: Make_eSILVA.sh
+
+scripts: 
+
+Silva_Cut_QualityFilter.pl  remove poor quality
+
+Silva_Ref111_Filter.pl      remove poor taxonomy
+
+arb filter: fasta_ref111.eft
 
 ContigsHtml
 ========================
@@ -23,6 +41,12 @@ These files were generated to inspect the assembly results. The script generatin
 Alignments
 ========================
 
+Pseudonocardia2_blocks2*
+
+Propionibacteria2_blocks1*
+
+Streptomyces3_blocks3*
+
 Description:
-These alignment blocks were used for phylogenies, with the purpose of inspecting whether sediment clones (PCR amplified with bacterial universal primers 27f and 1492r, as well as actinobacterial primers) will place as sister groups to any of the bone consensus sequences. In case you wonder: they dont.
+These alignment blocks were used for phylogenies, with the purpose of inspecting whether sediment clones (PCR amplified with bacterial universal primers 27f and 1492r, as well as actinobacterial primers) will place as sister groups to any of the bone consensus sequences. In case you wonder: they dont. Name conversion file available for each to match alignment (short names for processing with RAXML) to the tree (nicer names for reading).
 
