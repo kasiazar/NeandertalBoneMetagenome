@@ -1,0 +1,9 @@
+Sequence                 		tRNA	Bounds	tRNA	Anti	Intron Bounds	Cove
+Name                     	tRNA #	Begin	End 	Type	Codon	Begin	End	Score
+--------                 	------	----	------	----	-----	-----	----	------
+AASG02005286.11698.14562 	1	2781	2854	Arg	ACG	0	0	51.16
+AASG02001643.3.2889      	1	565 	648 	Tyr	GTA	0	0	44.67
+AEWC01031912.3857.6444   	1	130 	203 	His	ATG	0	0	66.37
+AGQN01058016.752.3941    	1	218 	289 	Asp	GTC	0	0	61.75
+CACX01001889.215528.217894	1	247 	175 	Thr	GGT	0	0	78.61
+HE663493.40751.43572     	1	557 	484 	Ile	GAT	0	0	78.39

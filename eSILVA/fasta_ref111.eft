@@ -1,0 +1,4 @@
+SUFFIX          fasta
+BEGIN
+>*(acc:?*=?1*1).*(start).*(stop) |organism=*(full_name)| |strain=*(strain)| |cut-head=*(align_cutoff_head_slv)| |cut-tail=*(align_cutoff_tail_slv)| |alignment-quality=*(align_quality_slv)| |pintail=*(pintail_slv)| |arb_name=*(name)| |environmental-sample=*(env_sl)| |isolation-source=*(isolation_source)| |tax_embl=*(tax_embl)| |tax_embl_name=*(tax_embl_name)|  |tax_gg=*(tax_gg)| |tax_gg_name=*(tax_gg_name)| |tax_rdp=*(tax_rdp)| |tax_rdp_name=*(tax_rdp_name)| |tax_slv=*(tax_slv)| |tax_ltp=*(tax_ltp)| |tax_ltp_name=*(tax_ltp_name)| 
+*(|export_sequence|remove(".-"))

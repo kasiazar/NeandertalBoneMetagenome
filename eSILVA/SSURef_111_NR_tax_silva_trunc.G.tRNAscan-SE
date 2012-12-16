@@ -1,0 +1,6 @@
+Sequence               		tRNA	Bounds	tRNA	Anti	Intron Bounds	Cove
+Name                   	tRNA #	Begin	End 	Type	Codon	Begin	End	Score
+--------               	------	----	------	----	-----	-----	----	------
+AFSQ01027585.1790.3265 	1	95  	166 	Val	GAC	0	0	66.47
+AM990992.2181279.2182758	1	4   	86  	Leu	GAG	0	0	57.20
+AM990992.2181279.2182758	2	108 	178 	Gly	TCC	0	0	71.34
