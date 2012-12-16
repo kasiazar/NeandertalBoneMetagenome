@@ -71,6 +71,15 @@ intermediate files for subsitution calculations:
 Description:
 Assembly results available for viewing in consed (go to assembly folder). Substitution calculations were done in several steps. First consensus sequence was verified by checking the dominant base at each position. Then all differences between the reads and consensus were calculated. Subsequent summary script implemented a cleaning procedure to overcome problem with adaptor leftovers at the ends: ignore end until 5bp are identical with consensus. To ignore reads that could be assembly errors all reads with more than 5 changes in total were discarded as well (not many). To inspect the difference between all difference and the calculated onces see the html pages below.
 
+
+Streptomycineae.C11.ace.1.details.ReadsDiscrepantSummerize_end5_rm5.skipped_too_many_substitutions
+
+Streptomycineae.C11.ace.1.details.ReadsDiscrepantSummerize_end5_rm5.all_reads
+
+Description:
+For calculations of diversity within C11. All read include the ones that were skipped due to more than 5 changes in 1 read (21). These are reads left after the cleaning procedure that takes care of problematic ends (adaptor leftovers). It of course reduces the ancient damage signal, BUT in Nenadertal contigs the signal is still very strong. And in any case, results that inluce all changes is not the typical ancient C --> T.
+
+
 ContigsHtml
 ========================
 
