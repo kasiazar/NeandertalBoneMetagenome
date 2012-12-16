@@ -28,6 +28,8 @@ Silva_Ref111_Filter.pl - remove poor taxonomy
 
 fasta_ref111.eft - arb filter
 
+Description: Custom high quality rRNA database, made removing poor quality or chimeric sequences, cutting unaligned ends, and removing taxonomically problematic sequences. To be used with the corresponding parser (to be added soon).
+
 ContigsHtml
 ========================
 
